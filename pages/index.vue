@@ -17,7 +17,7 @@
         <el-input v-model="formData.password" type="password" placeholder="Password" show-password clearable/>
       </el-form-item>
       <el-form-item>
-        <el-button type="success" class="!w-full">Sign In</el-button>
+        <el-button type="success" native-type="submit" class="!w-full">Sign In</el-button>
       </el-form-item>
     </el-form>
   </div>
