@@ -4,7 +4,7 @@
       label-position="top"
       label-width="auto"
       class="w-[95%] border rounded-md p-5"
-      @submin.prevent="handleLogin"
+      @submit.prevent="handleLogin"
     >
       <el-form-item
         label="Username"
