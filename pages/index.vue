@@ -39,4 +39,22 @@
     });
   }
 
+  const isPlaying = ref(false);
+  let audio = null;
+
+  onMounted( async() => {
+    audio = new Audio(`/sound.mp3`);
+    audio.loop = true;
+    audio.volume = 0.5;
+
+    try {
+      await audio.play();
+      console.log('Audio started');
+    } catch (err) {
+      console.log('Autoplay blocked by browser');
+    }
+    audio.preload = 'auto';
+    
+  })
+
 </script>
