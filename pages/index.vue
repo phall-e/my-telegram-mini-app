@@ -10,11 +10,6 @@
       >
         <el-input placeholder="Username" clearable/>
       </el-form-item>
-    </el-form>
-    <el-form
-      label-position="top"
-      label-width="auto"
-    >
       <el-form-item
         label="Password"
       >
