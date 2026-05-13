@@ -3,7 +3,7 @@
     <el-form
       label-position="top"
       label-width="auto"
-      class="w-[95%] border rouded-md"
+      class="w-[95%] border rouded-md p-5"
     >
       <el-form-item
         label="Username"
